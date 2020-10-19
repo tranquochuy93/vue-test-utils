@@ -95,3 +95,7 @@
   await flushPromises();
   expect(actions['test/index']).toHaveBeenCalled();
  ```
+ 
+ #### find, findAll, findComponent, findAllComponents
+ - find: return FIRST component that maps to selector
+ - findAll: return ALL component that map to selector
